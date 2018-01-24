@@ -15,7 +15,7 @@ npm i @ionepub/node-timer --save
 ### 基本使用
 
 ```
-var Timer = require('./timer');
+var Timer = require('@ionepub/node-timer');
 Timer.run(function(day, hour, minute, second, is_end){
 	console.log(day+'d', hour+'h', minute+'m', second+'s', is_end);
 	if(is_end){
